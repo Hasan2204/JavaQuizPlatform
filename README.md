@@ -14,10 +14,10 @@ Roles:
 
 ## Run
 1. Create the database using `database/schema.sql`.
-2. Edit `src/main/resources/application.properties` and put your MySQL password in `spring.datasource.password`.
+2. Set the DB_PASSWORD environment variable to your local MySQL password.
 3. From the project folder run:
    `mvn spring-boot:run`
 4. Open:
    `http://localhost:8080/`
 
-Demo passwords are `Admin@123`, `Creator@123`, and `Participant@123`.
+
